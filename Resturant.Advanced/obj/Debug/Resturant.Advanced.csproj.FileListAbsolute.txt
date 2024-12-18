@@ -1,0 +1,14 @@
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\bin\Debug\Resturant.Advanced.exe.config
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\bin\Debug\Resturant.Advanced.exe
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\bin\Debug\Resturant.Advanced.pdb
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.login.resources
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.Properties.Resources.resources
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.exe
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.pdb
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.Main.resources
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.form1.resources
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.SampleAdd.resources
+C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.SampleView.resources
