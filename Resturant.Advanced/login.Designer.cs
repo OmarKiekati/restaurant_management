@@ -51,6 +51,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(368, 187);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pictureBox1
             // 
@@ -66,7 +67,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 164);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(237, 23);
+            this.label3.Size = new System.Drawing.Size(191, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "Please Enter Your Information";
             // 
@@ -75,7 +76,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(62, 227);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 23);
+            this.label1.Size = new System.Drawing.Size(71, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Username";
             // 
@@ -83,14 +84,15 @@
             // 
             this.user.Location = new System.Drawing.Point(66, 262);
             this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(212, 30);
+            this.user.Size = new System.Drawing.Size(212, 26);
             this.user.TabIndex = 2;
+            this.user.TextChanged += new System.EventHandler(this.user_TextChanged);
             // 
             // password
             // 
             this.password.Location = new System.Drawing.Point(66, 358);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(212, 30);
+            this.password.Size = new System.Drawing.Size(212, 26);
             this.password.TabIndex = 4;
             this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
@@ -99,7 +101,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(62, 323);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 23);
+            this.label2.Size = new System.Drawing.Size(67, 19);
             this.label2.TabIndex = 3;
             this.label2.Text = "Password";
             // 
@@ -129,7 +131,7 @@
             // 
             // login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(368, 534);

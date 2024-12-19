@@ -26,5 +26,10 @@ namespace Resturant.Advanced
         {
 
         }
+
+        private void SampleView_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
