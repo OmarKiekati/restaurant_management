@@ -39,7 +39,7 @@
             // 
             this.Search.Location = new System.Drawing.Point(676, 115);
             this.Search.Name = "Search";
-            this.Search.Size = new System.Drawing.Size(292, 31);
+            this.Search.Size = new System.Drawing.Size(292, 27);
             this.Search.TabIndex = 0;
             this.Search.Text = "\r\n";
             this.Search.TextChanged += new System.EventHandler(this.Search_TextChanged);
@@ -49,7 +49,7 @@
             this.btnAdd.AutoSize = true;
             this.btnAdd.Location = new System.Drawing.Point(684, 87);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(64, 25);
+            this.btnAdd.Size = new System.Drawing.Size(53, 20);
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Search";
             this.btnAdd.Click += new System.EventHandler(this.label1_Click);
@@ -59,7 +59,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(45, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 25);
+            this.label2.Size = new System.Drawing.Size(58, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Header";
             // 
@@ -86,6 +86,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "SampleView";
             this.Text = "SampleView";
+            this.Load += new System.EventHandler(this.SampleView_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

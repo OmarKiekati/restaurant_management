@@ -36,7 +36,7 @@ namespace Resturant.Advanced
         {
             if (MainClass.Validation(user.Text, password.Text) == false)
             {
-                Message.show("invalid username or password");
+                MessageBox.Show("invalid username or password");
                 return;
 
             }
@@ -51,6 +51,16 @@ namespace Resturant.Advanced
         private void password_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void user_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

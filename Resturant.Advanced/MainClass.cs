@@ -1,25 +1,25 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
+
 
 namespace Resturant.Advanced
 {
     internal class MainClass
     {
-        public static readonly string con_string- "(LocalDB)\MSSQLLocalDB  (DESKTOP-R428O8S\hp (57))";
-        public static SqlConnection con = new SqlConnection(con_string);
+        public static readonly string con_string= @"(LocalDB)\MSSQLLocalDB  (DESKTOP-R428O8S\hp (57))";
+        public static System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(con_string);
         public static bool Validation(string user, string password)
         {
             bool validation = false;
-            string qry = @"select * from users where username  -' " + user + "' and upass - '" + pass + "' ";
-            SqlCommand cmd = new SqlCommand(qry, con);
+            string qry = @"select * from users where username  -' " + user + "' and upass - '" + password + "' ";
+            System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand(qry, con);
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            System.Data.SqlClient.SqlDataAdapter da = new System.Data.SqlClient.SqlDataAdapter(cmd);
             da.Fill(dt);
             if (dt.Rows.Count > 0)
             {
@@ -45,27 +45,29 @@ namespace Resturant.Advanced
             int res = 0;
             try
             {
-                sqlCommand cmd = new sqlCommand(qry, ht);
+                System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand(qry, con);
                 cmd.CommandType = CommandType.Text;
                 foreach (DictionaryEntry item in ht )
                 {
-                    cmd.parametrs.AddWithValue (item.Key.ToString() , item.Value);
+                    cmd.Parameters.AddWithValue (item.Key.ToString() , item.Value);
                 }
-                if (con.state == ConnectionState.Closed)
+                if (con.State == ConnectionState.Closed)
                 {
-                    con.open();
+                    con.Open();
                 }
                 res = cmd.ExecuteNonQuery();
-                if (con.state == ConnectionState.Open)
+                if (con.State == ConnectionState.Open)
                 {
                     con.Close();
                 }
+                return 1;
             }
             catch (Exception)
             {
 
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("Error");
                 con.Close();
+                return 0;
             }
         }
         //for loading data from database
@@ -73,9 +75,9 @@ namespace Resturant.Advanced
         {
             try
             {
-                sqlCommand cmd = new sqlCommand (qry, con);
+                System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand (qry, con);
                 cmd.CommandType = CommandType.Text;
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                System.Data.SqlClient.SqlDataAdapter da = new System.Data.SqlClient.SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill (dt);
 
@@ -88,7 +90,7 @@ namespace Resturant.Advanced
             }
             catch (Exception)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("Error");
                 con.Close();
             }
         }

@@ -12,3 +12,16 @@ C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Restura
 C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.form1.resources
 C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.SampleAdd.resources
 C:\Users\hp\source\repos\Resturant.Advanced\Resturant.Advanced\obj\Debug\Resturant.Advanced.SampleView.resources
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.csproj.AssemblyReference.cache
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.form1.resources
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.login.resources
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.Main.resources
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.Properties.Resources.resources
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.SampleAdd.resources
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.SampleView.resources
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.csproj.GenerateResource.cache
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.csproj.CoreCompileInputs.cache
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.exe
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.pdb
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.csproj.SuggestedBindingRedirects.cache
+F:\Coding\restaurant_management\Resturant.Advanced\obj\Debug\Resturant.Advanced.exe.config
