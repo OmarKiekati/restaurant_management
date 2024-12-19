@@ -11,7 +11,7 @@ namespace Resturant.Advanced
 {
     internal class MainClass
     {
-        public static readonly string con_string= @"(LocalDB)\MSSQLLocalDB  (DESKTOP-R428O8S\hp (57))";
+        public static readonly string con_string= @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\Coding\restaurant_management\Resturant.Advanced\RMdb.mdf;Integrated Security=True;Connect Timeout=30";
         public static System.Data.SqlClient.SqlConnection con = new System.Data.SqlClient.SqlConnection(con_string);
         public static bool Validation(string user, string password)
         {
